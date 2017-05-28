@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+</head>
+<body>
+	<container>
+	<div>
+		<h1>Spongebob Trivia!</h1>
+	</div>
+		<section>
+			<h2>How well do YOU know Bikini Bottom?</h2>
+			<h3>Time Remaining: <span></span></h3>
+			<div id="choice-1"></div>
+			<div id="choice-2"></div>
+			<div id="choice-3"></div>
+			<div id="choice-4"></div>
+		</section>
+	</container>
+</body>
+</html>
+<!-- jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript">
+//GLOBAL VARIABLES
+//________________________________________________________________________________________________
+var correctAnswers = ["Mr. Krabz",]
+
+
+//FUNCTIONS
+//________________________________________________________________________________________________
+
+function startGame(){
+ document.getElementById("choice-1").innerHTML = correctAnswers[0];
+ 
+}
+</script>
