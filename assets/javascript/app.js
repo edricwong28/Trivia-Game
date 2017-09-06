@@ -172,5 +172,3 @@ $(document).on("click", "#start", function() {
 $(document).on("click", "#done", function() {
   game.done();
 });
-Window size: 1536 x 824
-Viewport size: 1540 x 760
