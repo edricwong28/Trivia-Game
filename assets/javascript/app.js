@@ -32,7 +32,7 @@ var questions = [{
 }, {
   question: "What is the speed of light?",
   answers: ["299,792,458 m/s", "340.29 m/s", "186,000 m/s", "300,000 k/s"],
-  correctAnswer: "299,729,458 m/s"
+  correctAnswer: "299,792,458 m/s"
 }];
 
 // Variable that will hold the setInterval
