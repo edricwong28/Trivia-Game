@@ -2,37 +2,37 @@ var panel = $("#quiz-area");
 
 // Question set
 var questions = [{
-  question: "What was the first full length CGI movie?",
-  answers: ["A Bug's Life", "Monsters Inc.", "Toy Story", "The Lion King"],
-  correctAnswer: "Toy Story"
+  question: "In the film, \"The Matrix\", What was Neo's name when he was living in the Matrix?",
+  answers: ["Alex A. Anderson", "John A. Anderson", "Thomas A. Anderson", "Nathan A. Anderson"],
+  correctAnswer: "Thomas A. Anderson"
 }, {
-  question: "Which of these is NOT a name of one of the Spice Girls?",
-  answers: ["Sporty Spice", "Fred Spice", "Scary Spice", "Posh Spice"],
-  correctAnswer: "Fred Spice"
+  question: "Which of these is NOT a name of one of the planets in the Star Wars Universe?",
+  answers: ["Tatooine", "Hoth", "Volcanis", "Endor"],
+  correctAnswer: "Volcanis"
 }, {
-  question: "Which NBA team won the most titles in the 90s?",
-  answers: ["New York Knicks", "Portland Trailblazers", "Los Angeles Lakers", "Chicago Bulls"],
-  correctAnswer: "Chicago Bulls"
+  question: "What is the name of the alien species in the movie,\"Avatar\"?",
+  answers: ["Navi", "Ivy", "Navahee", "Vanmi"],
+  correctAnswer: "Navi"
 }, {
-  question: "Which group released the hit song, \"Smells Like Teen Spirit\"?",
-  answers: ["Nirvana", "Backstreet Boys", "The Offspring", "No Doubt"],
-  correctAnswer: "Nirvana"
+  question: "Which of the following choices is NOT one of the playable races in the game StarCraft?",
+  answers: ["Terran", "Protoss", "Buggers", "Zerg"],
+  correctAnswer: "Buggers"
 }, {
-  question: "Which popular Disney movie featured the song, \"Circle of Life\"?",
-  answers: ["Aladdin", "Hercules", "Mulan", "The Lion King"],
-  correctAnswer: "The Lion King"
+  question: "Which of the following choices is NOT a name of a Star Trek Captain?",
+  answers: ["Parker", "Janeway", "Kirk", "Picard"],
+  correctAnswer: "Parker"
 }, {
-  question: "Finish this line from the Fresh Prince of Bel-Air theme song: \"I whistled for a cab and when it came near, the license plate said...\"",
-  answers: ["Dice", "Mirror", "Fresh", "Cab"],
-  correctAnswer: "Fresh"
+  question: "What is the name of the Artificial Intelligence antagonist in the Termincator films?",
+  answers: ["Alpha", "Cortana", "Siri", "SkyNet"],
+  correctAnswer: "SkyNet"
 }, {
-  question: "What was Doug's best friend's name?",
-  answers: ["Skeeter", "Mark", "Zach", "Cody"],
-  correctAnswer: "Skeeter"
+  question: "In the film, \"2001: A Space Odyssey?\", what is the name of the Artificial Intelligence assistant aboard the spacecraft",
+  answers: ["HAL", "MAL", "ZAL", "FAL"],
+  correctAnswer: "HAL"
 }, {
-  question: "What was the name of the principal at Bayside High in Saved By The Bell?",
-  answers: ["Mr.Zhou", "Mr.Driggers", "Mr.Belding", "Mr.Page"],
-  correctAnswer: "Mr.Belding"
+  question: "What is the speed of light?",
+  answers: ["299,792,458 m/s", "340.29 m/s", "186,000 m/s", "300,000 k/s"],
+  correctAnswer: "299,729,458 m/s"
 }];
 
 // Variable that will hold the setInterval

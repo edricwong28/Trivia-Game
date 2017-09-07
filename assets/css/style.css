@@ -5,7 +5,8 @@ body {
 
 body {
   text-align: center;
-  background-image: url("../images/tacky.jpg");
+  background-image: url("../images/cyberpunkSunset.png");
+  background-size: cover;
 }
 
 #wrapper {
@@ -14,7 +15,8 @@ body {
   box-sizing: border-box;
   padding: 5% 0;
   margin: 5% auto;
-  background-color: #fff17a;
+  background-color: blue;
+  opacity: 0.85;
 }
 
 #sub-wrapper {
